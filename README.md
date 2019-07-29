@@ -1,7 +1,7 @@
 # object-detection
 1) wifi_count.ipynb file is used to get image from other machine via client server socket and shows count of objects detected
 
-To use it:
+  To use it:
 - run wifi-client.ipynb 
 - run client.py in the pc where the remote web-camera is connected
 
