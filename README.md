@@ -166,15 +166,40 @@ _libgcc_mutex   |          0.1     |                   main  |     |
    1. wifi_count.ipynb file is used to get image from other machine via client server socket and shows count of objects detected
 
       -To use it:
-       -run wifi-client.ipynb 
-       -run client.py in the pc where the remote web-camera is connected
+       -run wifi-client.ipynb  on base-station
+       -run client.py on the drone 
 
    2. detect_video detection uses already existing camera on the pc to detect objects.
    3. detect_image file detects objects from the image
+   4. To change the minimum change-threshold change the wifi_count.ipynb/detect_image/detect_video/detect_webcam script
    
-## field-testing
-## nvidia 
+ ```
+      min_score_thresh= <value between 0-1>
+ ```
    
+   5. To reduce the number of classes detected change in wifi_count.ipynb/detect_image/detect_video/detect_webcam script.
+    
+ ```
+    NUM_CLASSES = <number>
+ ```
+   6. You can check the classes names from mscoco_label_map.pbtxt file.
+   
+
+
+
  ## Results
  
  ![Detection on image](image1.png)
+ 
+ ### field-testing
+
+ ![Detection on image](20190727_163923.jpg)
+ ![Detection on image](20190727_164026.jpg)
+ ![Detection on image](20190727_173512.jpg)
+ ![Detection on image](20190727_174035.jpg)
+
+
+## future work
+
+1) Payload drop in a crop field and vision based crop disease identification.
+2) Swarm
