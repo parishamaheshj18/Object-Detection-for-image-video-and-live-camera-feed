@@ -1,4 +1,6 @@
-# object-detection
+# Deep learning for Drones
+
+A project with UCAL Technologies, Chennai. The aim of the project is to provide a vision based object detection to drone. The initial files detects 15 different classes with counting of people detected in the scene.
 
 ## Prerequisites
 
@@ -161,6 +163,7 @@ _libgcc_mutex   |          0.1     |                   main  |     |
 |zeromq                |    4.3.1      |          he6710b0_3  ||
 |zlib                  |    1.2.11     |          h7b6447c_3  ||
 |zstd                  |    1.3.7      |          h0b5b093_0 ||
+
 ## Run
 
    1. wifi_count.ipynb file is used to get image from other machine via client server socket and shows count of objects detected
@@ -190,9 +193,6 @@ _libgcc_mutex   |          0.1     |                   main  |     |
  ## Results
  
  ![Detection on image](image1.png)
- 
- ### field-testing
-
  ![Detection on image](20190727_163923.jpg)
  ![Detection on image](20190727_164026.jpg)
  ![Detection on image](20190727_173512.jpg)
@@ -202,4 +202,5 @@ _libgcc_mutex   |          0.1     |                   main  |     |
 ## future work
 
 1) Payload drop in a crop field and vision based crop disease identification.
-2) Swarm
+2) Object tracking
+3) UAV Swarm mission with computer vision.
