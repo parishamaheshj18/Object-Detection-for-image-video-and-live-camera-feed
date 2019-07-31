@@ -172,6 +172,9 @@ _libgcc_mutex   |          0.1     |                   main  |     |
    2. detect_video detection uses already existing camera on the pc to detect objects.
    3. detect_image file detects objects from the image
    
+## field-testing
+## nvidia 
+   
  ## Results
  
  ![Detection on image](image1.png)
