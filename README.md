@@ -1,6 +1,6 @@
 # Deep learning for Drones
 
-A project with UCAL Technologies, Chennai. The aim of the project is to provide a vision based object detection to drone. The initial files detects 15 different classes with counting of people detected in the scene.
+A project with UCAL Technologies, Chennai. The aim of the project is to provide a vision based object detection to drone. The initial files detects 15 different classes with counting of people detected in the scene. For the initial phase of the project we are making use of already existing coco_api dataset for detection. 
 
 ## Prerequisites
 
@@ -200,7 +200,7 @@ _libgcc_mutex   |          0.1     |                   main  |     |
 
 
 ## future work
-
-1) Payload drop in a crop field and vision based crop disease identification.
-2) Object tracking
-3) UAV Swarm mission with computer vision.
+1) Preparing the dataset for singular use of the product. 
+2) Payload drop in a crop field and vision based crop disease identification.
+3) Object tracking
+4) UAV swarm mission with computer vision.
