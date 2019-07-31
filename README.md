@@ -197,6 +197,11 @@ _libgcc_mutex   |          0.1     |                   main  |     |
  ![Detection on image](20190727_164026.jpg)
  ![Detection on image](20190727_173512.jpg)
  ![Detection on image](20190727_174035.jpg)
+ 
+ ## NVIDIA TX1
+ 
+ To install openCV and tensorflow on TX1
+  refer [This Link](https://medium.com/@manivannan_data/install-opencv-and-tensorflow-on-jetson-tx1-and-jetson-tx2-bb4586aa396b)
 
 
 ## future work
